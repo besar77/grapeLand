@@ -14,7 +14,7 @@
 
                     <div class="prod-info">
                         <div class="prod-info-price-name d-flex justify-content-between">
-                            <a href="#" class="prod-name ">Norflok Pine</a>
+                            <a href="{{ route('product') }}" class="prod-name ">Norflok Pine</a>
                             <span class="prod-price">149$</span>
                         </div>
                         <div class="prod-colors d-flex flex-md-column">

@@ -1,7 +1,7 @@
 <div class="navbar container-fluid d-flex px-5 align-items-center">
 
     <div class="logo">
-        <a href="#">
+        <a href="{{ route('home') }}">
             <img src="" alt="test.jpg">
         </a>
     </div>

@@ -34,9 +34,8 @@
 <body>
 
     @include('layout.navbar')
-    @include('layout.section-main')
 
-    <div class="container-fluid">
+    <div>
         @yield('content')
     </div>
 
