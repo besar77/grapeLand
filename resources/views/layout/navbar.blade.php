@@ -13,12 +13,12 @@
         <a class="nav-linkk mx-3 links" href="#">LEARN</a>
     </div>
 
-    <div class="login-cart-search d-flex align-items-center" style="gap:5px;">
+    <div class="login-cart-search d-flex align-items-center " style="gap:20px;">
         <span class="material-symbols-outlined" style="cursor: pointer;">
             search
         </span>
         <span class="material-symbols-outlined" style="cursor: pointer;">
-            login
+        <a href="{{ url('/login') }}">login</a>
         </span>
         <span class="material-symbols-outlined" style="cursor: pointer;">
             local_mall
