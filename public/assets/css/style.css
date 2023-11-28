@@ -1,0 +1,230 @@
+.navbar{
+    padding: 20px 0 !important;
+}
+.nav-linkk{
+    font-weight: 400;
+    font-size: 14px;
+    color: #224229;
+}
+.nav-linkk:hover{
+    position: relative;
+    color: #224229;
+}
+
+  .nav-linkk:hover::before {
+    content: "";
+    position: absolute;
+    bottom: -5px; /* Adjust this value to control the padding before the underline */
+    left: 0;
+    width: 100%;
+    height: 1px; /* Adjust this value to control the underline thickness */
+    background-color: #000; /* Change the color to match your design */
+  }
+
+.main-section{
+    height: 40vh;
+    background-position: center;
+    position: relative;
+    background-blend-mode: overlay;
+    width: 100%;
+}
+.main-section-div{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.image-btn-cart{
+    position: relative;
+    overflow: hidden;
+}
+
+.add-to-cart {
+    position: absolute;
+    bottom: 30px;
+    text-align: center;
+    padding: 5px;
+    opacity: 0;
+    transition: opacity 0.3s ease-out;
+}
+.btn-add-to-cart{
+    border: none;
+    padding: 5px 80px;
+    border-radius: 20px;
+    background-color: #f2e5dc;
+    border: 1px solid black;
+
+    transition: all 0.3s;
+
+}
+
+.image-btn-cart:hover .add-to-cart {
+    opacity: 1;
+}
+
+.btn-add-to-cart:hover{
+    padding: 5px 85px;
+    background-color: #f3dac8;
+}
+
+.prod-info{
+    margin-top: 10px;
+}
+.prod-name , .prod-price{
+    font-family: Nib, serif;
+    font-size: 16px;
+    color: black;
+    line-height: 19px;
+}
+
+.prod-info:hover .prod-name , .prod-info:hover .prod-price{
+    color: green;
+}
+
+.product {
+    overflow: hidden; /* Create a new block formatting context */
+}
+
+.swatch{
+    border-radius: 9999px;
+    height: 18px;
+    width: 18px;
+
+    border: 1px solid transparent; /* Initially, set a transparent border */
+    cursor: pointer;
+    transition: border 0.3s ease;
+}
+
+.swatch:hover{
+    border: 1px solid gray; /* Change the border color on hover */
+    box-shadow: 0 0 5px gray; /* Add a box shadow for padding */
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&display=swap');
+
+.h1-main-section{
+    font-family: 'Nib', serif;
+    font-size: 48px;
+    line-height: 58px;
+    color: #f8f3e7;
+    font-weight: 400;
+}
+
+.h2-main-section{
+    font-family: 'Nib', serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #f8f3e7;
+}
+
+.best-plant-a-link{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+.best-plant-a-link:hover{
+    color: green;
+}
+
+.about-btn-learn-more{
+    background-color: #224229 !important;
+    color: white !important;
+    border-radius: 40px !important;
+    padding: 17px 29px !important;
+    font-size: 14px !important;
+}
+
+.footer-ul{
+    list-style-type: none;
+}
+
+.footer-ul li{
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    font-family: Circular, sans-serif;
+}
+
+.footer-ul li:hover{
+    text-decoration: underline;
+}
+.footer h6{
+    padding-bottom: 15px;
+}
+
+.footer h6{
+    opacity: 0.5;
+    font-family: "Raisonne Demibold", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    color: rgba(252, 249, 243, 0.72);
+}
+
+.p-footer{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #fcf9f3;
+    font-family: Circular, sans-serif;
+}
+
+.brands-logos-h1{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    color: #224229;
+    font-family: "Raisonne Demibold", sans-serif;
+}
+
+.gift-guide-about p{
+    color: #224229;
+    font-family: "Nib, serif";
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 32px;
+}
+
+.gift-guide-about h2{
+    color: #224229;
+    font-family: "Nib, serif";
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 45px;
+}
+
+.gift-guide-about h5{
+    color: #224229;
+    font-family: "Raisonne Demibold", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.header-h1-title{
+    font-family: 'Nib, serif';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 45px;
+    color: #224229;
+}
+
+.links{
+    font-family: "Raisonne Demibold";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    color: #224229;
+}
+
+.btnShopPlant{
+    font-family: "Raisonne Demibold", sans-serif !important;
+    font-weight: 400 !important;
+    font-size: 15px !important;
+    line-height: 21px !important;
+    color: #224229 !important;
+    padding: 16px 97px !important;
+}
